@@ -1,5 +1,6 @@
 `timescale 1ns/1ps
 
+/* adjusted with kianRiscV Hirosh Dabui from https://github.com/~splinedrive */
 module picotiny (
   input clk,
   input resetn,
@@ -106,6 +107,7 @@ Reset_Sync u_Reset_Sync (
   .clk(clk_p)
 );
 
+/*
 picorv32 #(
    .PROGADDR_RESET(32'h8000_0000)
 ) u_picorv32 (
@@ -121,6 +123,20 @@ picorv32 #(
    .mem_rdata(mem_rdata),
    .irq(32'b0),
    .eoi()
+ );
+ */
+/* Replaced with rv32im riscv*/
+kianv #(
+   .RESET_ADDR(32'h8000_0000)
+) u_kianv (
+   .clk(clk_p),
+   .resetn(sys_resetn),
+   .mem_valid(mem_valid),
+   .mem_ready(mem_ready),
+   .mem_addr(mem_addr),
+   .mem_wdata(mem_wdata),
+   .mem_wstrb(mem_wstrb),
+   .mem_rdata(mem_rdata)
  );
 
  PicoMem_SRAM_8KB u_PicoMem_SRAM_8KB_7 (

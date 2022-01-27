@@ -5,28 +5,30 @@
     <Version>5</Version>
     <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
     <FileList>
-        <File path="../hw/hdmi/svo_defines.vh" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_enc.v" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_hdmi_top.v" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_openldi.v" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_tcard.v" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_term.v" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_tmds.v" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_utils.v" type="file.verilog" enable="1"/>
-        <File path="../hw/hdmi/svo_vdma.v" type="file.verilog" enable="1"/>
-        <File path="../hw/picomemory.v" type="file.verilog" enable="1"/>
-        <File path="../hw/picoperipheral.v" type="file.verilog" enable="1"/>
-        <File path="../hw/picorv32.v" type="file.verilog" enable="1"/>
-        <File path="../hw/picotiny.v" type="file.verilog" enable="1"/>
-        <File path="../hw/simpleuart.v" type="file.verilog" enable="1"/>
-        <File path="../hw/spimemio_puya.v" type="file.verilog" enable="1"/>
-        <File path="../gowin_ip/bootram_2kx8_0/bootram_2kx8_0.v" type="file.verilog" enable="1"/>
-        <File path="../gowin_ip/bootram_2kx8_1/bootram_2kx8_1.v" type="file.verilog" enable="1"/>
-        <File path="../gowin_ip/bootram_2kx8_2/bootram_2kx8_2.v" type="file.verilog" enable="1"/>
-        <File path="../gowin_ip/bootram_2kx8_3/bootram_2kx8_3.v" type="file.verilog" enable="1"/>
-        <File path="../gowin_ip/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
-        <File path="../gowin_ip/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
-        <File path="../gowin_ip/sram_2kx8/sram_2kx8.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_0/bootram_2kx8_0.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_1/bootram_2kx8_1.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_2/bootram_2kx8_2.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_3/bootram_2kx8_3.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/gowin_ip/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/gowin_ip/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_defines.vh" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_enc.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_openldi.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_tcard.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_term.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_tmds.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/hdmi/svo_vdma.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/picomemory.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/picoperipheral.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/picorv32.v" type="file.verilog" enable="0"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/picotiny.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/simpleuart.v" type="file.verilog" enable="1"/>
+        <File path="/home/hd/hacking/riscv/TangNano-9K-example/picotiny/hw/spimemio_puya.v" type="file.verilog" enable="1"/>
+        <File path="src/kianv.v" type="file.verilog" enable="1"/>
+        <File path="src/register_file.v" type="file.verilog" enable="1"/>
         <File path="picotiny.cst" type="file.cst" enable="1"/>
         <File path="picotiny.sdc" type="file.sdc" enable="1"/>
     </FileList>
